@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-geopandas-feedstock/blob/master/LICENSE.txt)
 
-Summary: GeoPandas objects backed with Dask
+Summary: Parallel GeoPandas with Dask
 
 Current build status
 ====================
