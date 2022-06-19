@@ -1,4 +1,4 @@
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: dask-geopandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/geopandas/dask-geopandas/releases/download/v{{ version }}/dask-geopandas-{{ version }}.tar.gz
-  sha256: 585311fd3b1767d30066a790a49fab51c05c917ab6d8c5469101fb30686ddfbe
+  sha256: 374ed3707f976a238155996bdd8e9f9de9939a040a6159baea1ca30a37c25093
 
 build:
   number: 0
@@ -32,7 +32,7 @@ about:
   home: https://github.com/geopandas/dask-geopandas
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: Parallel GeoPandas with Dask 
+  summary: Parallel GeoPandas with Dask
 
 extra:
   recipe-maintainers:
