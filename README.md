@@ -1,11 +1,11 @@
-About dask-geopandas
-====================
+About dask-geopandas-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-geopandas-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/geopandas/dask-geopandas
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-geopandas-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parallel GeoPandas with Dask
 

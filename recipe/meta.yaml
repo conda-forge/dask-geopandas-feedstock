@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: dask-geopandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/geopandas/dask-geopandas/releases/download/v{{ version }}/dask-geopandas-{{ version }}.tar.gz
-  sha256: fb228d18d9fb5f2c132983579ab15e400ab1bf4595802695a5c81861f3de8c05
+  sha256: 032012d1dfd4d47b0009c3f89995fe5ee434edbaac78cac398637ceade9b26c3
 
 build:
   number: 0
