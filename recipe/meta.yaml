@@ -24,8 +24,6 @@ requirements:
     - dask-core >=2021.06.0
     - distributed >=2021.06.0
     - packaging
-  run_constrained:
-    - shapely >=2.0
 
 test:
   imports:
