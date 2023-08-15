@@ -9,6 +9,8 @@ Package license: BSD-3-Clause
 
 Summary: Parallel GeoPandas with Dask
 
+Development: https://github.com/geopandas/dask-geopandas/
+
 Current build status
 ====================
 
