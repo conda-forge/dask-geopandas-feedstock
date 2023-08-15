@@ -22,6 +22,7 @@ requirements:
     - python >=3.7
     - geopandas-base >=0.10
     - dask-core >=2021.06.0
+    - distributed >=2021.06.0
     - packaging
 
 test:
@@ -31,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - fiona
 
 about:
   home: https://github.com/geopandas/dask-geopandas
