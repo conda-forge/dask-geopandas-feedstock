@@ -16,12 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.9
     - pip
   run:
-    - python >=3.7
-    - geopandas-base >=0.10
-    - dask-core >=2021.06.0
+    - python >=3.9
+    - geopandas-base >=0.12
+    - shapely >=2.0
+    - dask-core >=2022.06.0
     - packaging
 
 test:
