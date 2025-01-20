@@ -1,5 +1,5 @@
 {% set name = "dask-geopandas" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0c9b35f9b81506fe30e88d7b9ca38efda1829aae2336ba284706a5302b117a6a
+  sha256: 95d1a08fcb0dc47454628b89dee2e89dd63df6c31183746a58b4908a2dc21e96
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
