@@ -22,10 +22,14 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - geopandas-base >=0.12
+    - geopandas-base >=0.14.3
     - shapely >=2.0
     - dask-core >=2022.06.0
     - packaging
+    # dask[dataframe] dependencies
+    - numpy >=1.24
+    - pandas >=2.0
+    - pyarrow >=14.0.1
 
 test:
   requires:
